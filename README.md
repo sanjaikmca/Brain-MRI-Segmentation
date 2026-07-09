@@ -237,9 +237,11 @@ IEEE Published Researcher
 
 Machine Learning | Deep Learning | Computer Vision | NLP
 
-GitHub: https://github.com/sanjaikmca
+**Portfolio:** https://sanjaikmca.github.io/Sanjai_Portfolio/
 
-LinkedIn: *https://www.linkedin.com/in/sanjaikmca*
+**LinkedIn:** https://www.linkedin.com/in/sanjaikmca
+
+**GitHub:** https://github.com/sanjaikmca
 
 ---
 
