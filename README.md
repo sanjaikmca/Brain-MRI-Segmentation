@@ -23,6 +23,77 @@ The work has been published in an **IEEE Conference**, demonstrating the effecti
 
 ---
 
+---
+
+## 📊 Dataset
+
+This project uses the **Brain MRI Images for Brain Tumor Detection and Segmentation** dataset (commonly known as **kaggle_3m**) available on Kaggle.
+
+### Dataset Overview
+
+- **Source:** Kaggle
+- **Dataset Name:** Brain MRI Images for Brain Tumor Detection and Segmentation (kaggle_3m)
+- **Data Type:** Brain MRI Images with Pixel-wise Tumor Masks
+- **Image Format:** `.tif`
+- **Mask Format:** `.tif`
+- **Task:** Binary Semantic Segmentation
+
+Each MRI image has a corresponding **ground truth mask** where:
+
+- **White pixels (1):** Tumor Region
+- **Black pixels (0):** Background
+
+---
+
+### Dataset Structure
+
+```
+kaggle_3m/
+│
+├── Patient_001/
+│   ├── image_1.tif
+│   ├── image_1_mask.tif
+│   ├── image_2.tif
+│   ├── image_2_mask.tif
+│   └── ...
+│
+├── Patient_002/
+│   ├── ...
+│
+└── ...
+```
+
+---
+
+### Data Preprocessing
+
+Before training the U-Net model, the following preprocessing steps were performed:
+
+- Converted MRI images to grayscale
+- Resized images to **128 × 128**
+- Normalized pixel values to the range **[0, 1]**
+- Loaded corresponding tumor masks
+- Created image-mask pairs for supervised learning
+
+---
+
+### Input and Output
+
+| Input | Output |
+|--------|---------|
+| Brain MRI Image | Tumor Segmentation Mask |
+
+The model learns to predict the tumor region for each MRI image by generating a pixel-level segmentation mask.
+
+---
+
+### Dataset Link
+
+📌 Kaggle:
+https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation
+
+---
+
 ## 🏗️ Model Architecture
 
 The project uses the **U-Net** architecture consisting of:
