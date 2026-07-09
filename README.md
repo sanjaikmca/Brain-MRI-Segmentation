@@ -1,4 +1,4 @@
-# 🧠 Brain MRI Tumor Segmentation using U-Net
+#  Brain MRI Tumor Segmentation using U-Net
 
 > IEEE Published Research Project | Deep Learning | Medical Image Segmentation | TensorFlow | Keras
 
