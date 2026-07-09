@@ -6,7 +6,7 @@
 
 This project presents an automated **Brain MRI Tumor Segmentation** system using the **U-Net Convolutional Neural Network** architecture. The model accurately identifies and segments tumor regions from brain MRI images, assisting medical professionals in faster and more reliable diagnosis.
 
-The work has been published in an **IEEE Conference**, demonstrating the effectiveness of deep learning techniques for medical image analysis.
+The work has been published in an **2026 International Conference on Computational Robotics, Testing and Engineering Evaluation (ICCRTEE)**, demonstrating the effectiveness of deep learning techniques for medical image analysis.
 
 ---
 
